@@ -1,0 +1,15 @@
+/* src/App.css */
+.App {
+  font-family: 'DM Sans', sans-serif;
+  color: #2c2f24;
+}
+
+h1, h2, h3,h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Add more global styles as needed */

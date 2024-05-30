@@ -1,0 +1,81 @@
+/* src/components/Header.css */
+.header {
+    background-color: #f9f9f7;
+    padding: 10px 0;
+  }
+
+.social-icons{
+/* gap: 10px; */
+margin-left: 35rem;
+}
+.icon{
+position: absolute;
+width: 28px;
+height: 28px;
+border-radius: 50%;
+background: rgba(249, 249, 247, 0.12);
+}
+  .top-bar {
+    background-color: #474747;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    color: #f9f9f7;
+  }
+  
+  .contact-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 32.67px;
+    font-weight: 600;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+  }
+  
+  .nav-menu a {
+    color: #2c2f24;
+  }
+  
+  .nav-menu a.active {
+    background-color: #dbdfd0;
+    padding: 4px 16px;
+    border-radius: 34px;
+  }
+  
+  .book-table {
+    padding: 12px 24px;
+    border: 1.5px solid #2c2f24;
+    border-radius: 118px;
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
