@@ -1,0 +1,47 @@
+.hero {
+    background-color: #f9f9f7;
+    padding: 60px;
+  }
+  
+  .hero-content {
+    display: flex;
+  }
+  
+  .hero-image {
+    position: relative;
+    width: 50%;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .visit-card {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #474747;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .hero-text {
+    width: 50%;
+    padding: 40px;
+  }
+  
+  .hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    color: #2c2f24;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #414536;
+    margin-top: 20px;
+  }
+  
