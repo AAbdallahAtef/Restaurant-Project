@@ -1,0 +1,80 @@
+.main-content {
+    text-align: center;
+  }
+  
+  .main-title {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 60.5px;
+    margin: 50px 0;
+    color: #2c2f24;
+  }
+  
+  .main-image {
+    width: 100%;
+    max-width: 1070px;
+    margin: 50px auto;
+    display: block;
+  }
+  
+  .content-section {
+    max-width: 1087px;
+    margin: 50px auto;
+    text-align: left;
+  }
+  
+  .content-section h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2c2f24;
+  }
+  
+  .content-section p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #414536;
+    white-space: pre-line;
+  }
+  
+  .sub-image {
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .read-more {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .read-more h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 60.5px;
+    color: #2c2f24;
+  }
+  
+  .read-more p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #414536;
+    margin-top: 85px;
+  }
+  .card-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+
+  
+
+  
+
+
