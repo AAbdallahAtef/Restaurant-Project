@@ -6,6 +6,7 @@ const Contact = () => {
         <div className="contact-page">
             <div className="contact-section">
                 <h2>Contact Us</h2>
+                {/* trttrrgttgg */}
                 <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
                 <div className="contact-form">
                     <div className="form-group">
