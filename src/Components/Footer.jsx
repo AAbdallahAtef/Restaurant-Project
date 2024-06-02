@@ -51,8 +51,10 @@
 //   );
 // };
 
+
 // export default Footer;
 
+// export default Footer;
 
 import React from "react";
 import "../Styles/Footer.css";
