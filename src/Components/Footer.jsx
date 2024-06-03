@@ -53,7 +53,7 @@
 
 // export default Footer;
 
-
+//my coment
 import React from "react";
 import "../Styles/Footer.css";
 import logo from "./assets/japanese-food.svg";
