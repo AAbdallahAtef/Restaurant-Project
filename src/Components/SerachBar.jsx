@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
-  borderRadius: theme.shape.borderRadius * 6, // Increase border radius
+  borderRadius: theme.shape.borderRadius * 6, 
   backgroundColor: alpha(theme.palette.common.white, 0.15),
   '&:hover': {
     backgroundColor: alpha(theme.palette.common.white, 0.25),
@@ -27,6 +27,7 @@ const Search = styled('div')(({ theme }) => ({
   border: `1px solid ${alpha(theme.palette.common.black, 0.2)}`,
   display: 'flex',
   alignItems: 'center',
+  marginBottom: theme.spacing(4), // Added margin-bottom for suggestions list
 }));
 
 const SearchIconWrapper = styled('div')(({ theme }) => ({
@@ -46,7 +47,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   paddingLeft: '15px',
   '& .MuiInputBase-input': {
     padding: theme.spacing(1, 1, 1, 0),
-    paddingRight: `calc(1em + ${theme.spacing(4)})`, // Add padding for the right icon
+    paddingRight: `calc(1em + ${theme.spacing(4)})`, 
     transition: theme.transitions.create('width'),
   },
 }));
@@ -102,7 +103,7 @@ const SearchBar = () => {
       </Search>
       {open && (
         <ClickAwayListener onClickAway={handleClickAway}>
-          <Paper style={{ position: 'absolute', zIndex: 1, marginTop: 4, width: '50%' }}>
+          <Paper style={{ position: 'absolute', zIndex: 0, marginTop: "2.5rem", width: '50%' }}>
             <List>
               {suggestions.map((meal) => (
                 <ListItem key={meal.idMeal} button>
