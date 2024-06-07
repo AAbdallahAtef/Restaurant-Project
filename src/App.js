@@ -6,14 +6,18 @@ import Menu from './Components/Menu';
 import Footer from './Components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MenuPage from './Pages/MenuPage';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
+        <Navbar />
         <Routes>
-          <Route path='menu' element={<MenuPage/>} ></Route>
+          <Route path='/' element={<Home/>} ></Route>
+          <Route path='/about' element={<About/>} ></Route>
         </Routes>
       <Footer />
       </BrowserRouter>
