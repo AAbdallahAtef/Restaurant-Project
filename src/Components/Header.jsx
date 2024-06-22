@@ -113,7 +113,7 @@ const Header = () => {
           <Link to="/pages">Pages</Link>
           <Link to="/contact">Contact</Link>
         </nav>
-        <button className="book-table">Book A Table</button>
+        <button  className="book-table">Book A Table</button>
       </div>
     </header>
   );

@@ -1,0 +1,39 @@
+.bookHeader {
+    font-size: 100px;
+    font-weight: 400;
+}
+.bookHeader ~ p{
+    transition: all 0.5s ease-in-out, 
+}
+.secondDiv {
+    position: relative;
+    height: 1008px;
+}
+.bookingForm{
+    position:absolute;
+    top: 0;
+    left: 25%;
+    z-index: 1;
+    width: 50%;
+    transition: all 0.5s ease-in-out, 
+}
+.googleMap{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    border: 0;
+}
+@media screen and (max-width: 576px) {
+    .bookHeader ~ p{
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bookingForm{
+        left: 12.5%;
+        width: 75% !important;
+    }
+
+}

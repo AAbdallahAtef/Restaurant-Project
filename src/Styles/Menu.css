@@ -1,74 +1,17 @@
-/* src/components/Menu.css */
-/* .menu {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 60px 0;
-  } */
-  
   .menuHeader {
     font-size: 100px;
     font-weight: 400;
-  } 
-  
-  /* .menu p {
-    font-size: 18px;
-    color: #495460;
-    margin: 0 auto 50px;
-  } */
-  
-  /* .menu-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
   }
-   */
-  /* .menu-buttons button {
-    padding: 12px 24px;
-    border: 1px solid #dbdfd0;
-    border-radius: 50px;
-    background-color: transparent;
-    font-weight: 700;
-    cursor: pointer;
-  } */
-  
+
   .activeButton {
     background-color: #ad343e !important;
     color: #ffffff !important;
   }
-  
-  /* .menu-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-  } */
-  
-  /* .menu-item {
-    ;
-    padding: 20px;
-    max-width: 306px;
-    box-sizing: border-box;
-  } */
-/*   
-  .menu-item img {
-    max-width: 100%;
-    border-radius: 12px;
+
+  .orderDiv {
+    background-color: #f7f7f3;
   }
-  
-  .menu-item h3 {
-    font-size: 24px;
-    color: #ad343e;
+
+  .plateImg {
+    border-radius: 12px 12px 0 0;
   }
-  
-  .menu-item h4 {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  
-  .menu-item p {
-    font-size: 16px;
-    color: #414536;
-    margin: 10px 0;
-  }
-   */
